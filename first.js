@@ -1,127 +1,46 @@
- // is a single line comment
-/* this is multi line comment .*/
-console.log("hello world!"); //this code prints hello world on our console window.
-// arithemetic operators
-// let a=5;
-// let b=2;
-// let c=a+b;
-// console.log("a=",a,"& b =",b);
-// console.log("a+b=",c)
-// console.log("a-b=",a-b)
-// console.log("a*b=",a*b)
-// console.log("a/b=",a/b)
-// console.log("a%b=",a%b)
-// console.log("a**b=",a**b)//5^2=25
+console.log("Apna college"); //console.log is used to print a message to a console
+console.log("ganesh"); 
+//variables are containers for data //
+// strings are represented in couts "" //
+fullname="tony stark";
+age=24;
+price=150.90;
+x=null;
+y=undefined; 
+isfollow=true;
+console.log(fullname);
+console.log(x); // js is dynamically typed language
+//variables in js are case sensitive .//
+//only letters digits underscore and $ is allowed (not even space).//
+//only a letter ,underscore or $ should be 1st character.
+// reserved words cannot be variable name .(eg console,log etc)
+// fullName - camel case . only case used in js
+// key words 
+// let- variable cannot be redeclared but can be updated. a block scope variable. (eg let age=24 change it to age=58 or age=70)
+// const - variable cannot be redeclared or updated .a block scope variable.
+// variable can be redeclared and updated .global scope variable.
+// let Name="tony";
+// let age =24;
+// age=57;
+// age=70;
+// let price =1000;
+// console.log(age);
+// // data type numbers ,strings ,boolean, undefined,null, BigInt,Symbol.
+// let age=26;
+// let price=1000;
+// let fullname="ganesh";
+// isFollow=true;
+// let x;
+// let x=null;
+// // objects-collection of values 
+// const student={
+//     fullname="Rahul";
+//     age=29;
+//     cgpa=9.2;
+//     ispass=true;
+// };
+// console.log(student.age);
+// student ["age"]=student["age"]+1;
+// // object contains key value pairs 
+// // here student is a object
 
-// unary operators
-// let a=5;
-// let b=2;
-// console.log("a=",a,"& b =",b);
-// a=a+1; // or a++;
-// console.log("a=",a);
-// a--;
-// console.log("a=",a);
-// console.log("++a=",++a); //first it increments the value then prints the value .
-// console.log("a++ =",a++);// prints the original value then in next line prints new value, 
-// console.log("a=",a);
-// this above is same for decrment operators.
-//Assignment operators.
-// let a=5;
-// let b=2;
-
-// a+= 4; //a=a+4
-// // a-= 4;
-// // a*= 4;
-// // a/= 4;
-// //a%= 4;
-// // a**= 4; a=a**4
-// console.log("a=",a); //9
-
-//Comparison operators.
-// let a=5;
-// let b=2;
-// console.log("a==b",a==b); //false
-// console.log("a!=b",a!=b); //true
-// console.log("a ==b",a==b);
-//logical operators
-// let a=5;
-// let b=6;
-// let cond1 =a<b; //true
-// let cond2 = a===5; //true
-// console.log("cond1 && cond2 =",cond1 && cond2);
-// console.log("cond1 || cond2 =",cond1 || cond2);
-// console.log("!(a<b) = ",!(a=b));
-//if statement 
-// let age =25;
-// if(age>18){
-//     console.log("you can vote");
-// }
-// if(age<18){
-//     console.log("you cannot vote");
-// }
-// let mode ="light";
-// let color;
-
-// if(mode ==="dark"){
-//     color ="black";
-// }
-// if(mode ==="light"){
-//     color ="white";
-// }
-// console.log(color);
-
-// // if else statement
-// if(mode ="dark"){
-//     color ="black";
-// }
-// else{
-//   color = "white";
-// }
-// console.log(color);
-// // if(mode ==="dark") console.log(mode); we can write as this .
-
-// //else-if statement
-// if(age<18){
-//     console.log("minor");
-// }
-// else if(age>60){
-//     console.log("senior");
-// }
-// else{
-//     console.log("middle");
-// }
-
-// ternary operators
-// let age =25;
-// let result = age >= 18 ? "adult" : "not adult"; // simpler compact if-else 
-// console.log(result);
- 
-// let name = prompt("hello!");
-// console.log(name);
-
-// practice question 1
-// let num = prompt("enter a number");
-// if(num % 5 ===0){
-//     console.log(num,"is a multiple of 5");
-// }
-// else {
-//     console.log(num,"is not a multiple of 5")
-// }
-
-// practice question
- let score = prompt("enter the score");
- if(score>=90 && score<=100){
-    console.log("grade A");
- }
- else if (score>=70 && score<=89){
-    console.log("grade B");
- }
- else if(score>=60 && score<=69){
-    console.log("grade C");
- }
-else if(score>=50 && score<=59){
-    console.log("grade D");
- }
-else if(score>=0 && score<=49){
-    console.log("grade F");
- }
